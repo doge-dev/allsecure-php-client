@@ -1,19 +1,19 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\AmountableTrait;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\ItemsTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableTrait;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsTrait;
 
 /**
  * Refund: Refund money from a previous Debit (or Capture) transaction to the customer.
  *
  * @note Preauthorized transactions can be reverted with a Void transaction, not a Refund!
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Refund extends AbstractTransactionWithReference implements AmountableInterface, ItemsInterface {
     use AmountableTrait;

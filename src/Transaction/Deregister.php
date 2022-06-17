@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
 
 /**
  * Deregister: Cancels the registration from a previous Register call.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Deregister extends AbstractTransactionWithReference {
 

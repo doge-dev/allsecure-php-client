@@ -1,14 +1,14 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\Request;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\Request;
 
 /**
  * Class AbstractTransaction
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class AbstractTransaction {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\StatusApi;
+namespace DogeDev\AllSecure\StatusApi;
 
-use Exchange\Client\Exception\TypeException;
+use DogeDev\AllSecure\Exception\TypeException;
 
 /**
  * Class StatusRequestData
  *
- * @package Exchange\Client\StatusApi
+ * @package DogeDev\AllSecure\StatusApi
  */
 class StatusRequestData {
 

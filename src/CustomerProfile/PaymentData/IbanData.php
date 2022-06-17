@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile\PaymentData;
+namespace DogeDev\AllSecure\CustomerProfile\PaymentData;
 
 /**
  * Class IbanData
  *
- * @package Exchange\Client\CustomerProfile\PaymentData
+ * @package DogeDev\AllSecure\CustomerProfile\PaymentData
  *
  * @property string $iban
  * @property string $bic

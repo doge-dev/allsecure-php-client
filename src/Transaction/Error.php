@@ -1,10 +1,10 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
 /**
  * Class Error
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Error {
 

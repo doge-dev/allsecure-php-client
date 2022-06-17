@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 /**
  * Specialized class to represent a customer with credit card data.
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class CreditCardCustomer extends Customer {
 

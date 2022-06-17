@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Http;
+namespace DogeDev\AllSecure\Http;
 
 /**
  * Interface ResponseInterface
  *
- * @package Exchange\Client\Http
+ * @package DogeDev\AllSecure\Http
  */
 interface ResponseInterface {
 

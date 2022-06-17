@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
 
 /**
  * Void: Revert a previously preauthorized transaction.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class VoidTransaction extends AbstractTransactionWithReference {
 

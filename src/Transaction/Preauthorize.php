@@ -1,23 +1,23 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileInterface;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileTrait;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\AmountableTrait;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\ItemsTrait;
-use Exchange\Client\Transaction\Base\OffsiteInterface;
-use Exchange\Client\Transaction\Base\OffsiteTrait;
-use Exchange\Client\Transaction\Base\ScheduleInterface;
-use Exchange\Client\Transaction\Base\ScheduleTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileInterface;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileTrait;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableTrait;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsTrait;
+use DogeDev\AllSecure\Transaction\Base\OffsiteInterface;
+use DogeDev\AllSecure\Transaction\Base\OffsiteTrait;
+use DogeDev\AllSecure\Transaction\Base\ScheduleInterface;
+use DogeDev\AllSecure\Transaction\Base\ScheduleTrait;
 
 /**
  * Preauthorize: Reserve a certain amount, which can be captured (=charging) or voided (=revert) later on.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Preauthorize extends AbstractTransactionWithReference implements AmountableInterface, OffsiteInterface, ItemsInterface, ScheduleInterface, AddToCustomerProfileInterface {
     use OffsiteTrait;

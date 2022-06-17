@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
 /**
  * Class AbstractReferenced
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 abstract class AbstractTransactionWithReference extends AbstractTransaction {
 

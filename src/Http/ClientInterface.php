@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Exchange\Client\Http;
+namespace DogeDev\AllSecure\Http;
 
 /**
  * Interface ClientInterface
  *
- * @package Exchange\Client\Http
+ * @package DogeDev\AllSecure\Http
  */
 interface ClientInterface {
 

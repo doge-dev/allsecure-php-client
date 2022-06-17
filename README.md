@@ -31,10 +31,10 @@ on a Sandbox environment, you should ammend the client as follows:
 ```php
 <?php
 
-use Exchange\Client\Client;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Transaction\Debit;
-use Exchange\Client\Transaction\Result;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Transaction\Debit;
+use DogeDev\AllSecure\Transaction\Result;
 
 // Include the autoloader (if not already done via Composer autoloader)
 require_once('path/to/initClientAutoload.php');
@@ -95,8 +95,8 @@ if ($result->isSuccess()) {
 ```php
 <?php
 
-use Exchange\Client\Client;
-use Exchange\Client\StatusApi\StatusRequestData;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\StatusApi\StatusRequestData;
 
 $username = 'Your Username';
 $password = 'Your password';

@@ -1,7 +1,7 @@
 <?php
 
-use Exchange\Client\Client;
-use Exchange\Client\Callback\Result;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\Callback\Result;
 
 require_once('../initClientAutoload.php');
 

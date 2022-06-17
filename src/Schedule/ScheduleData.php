@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Schedule;
+namespace DogeDev\AllSecure\Schedule;
 
-use Exchange\Client\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
 
 /**
  * Class Schedule
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class ScheduleData implements AmountableInterface {
 

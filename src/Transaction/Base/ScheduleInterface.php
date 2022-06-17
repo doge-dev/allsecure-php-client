@@ -1,8 +1,8 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Schedule\ScheduleData;
+use DogeDev\AllSecure\Schedule\ScheduleData;
 
 interface ScheduleInterface {
 

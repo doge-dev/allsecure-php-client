@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Http;
+namespace DogeDev\AllSecure\Http;
 
-use Exchange\Client\Http\Exception\ResponseException;
+use DogeDev\AllSecure\Http\Exception\ResponseException;
 
 /**
  * Class Response
  *
- * @package Exchange\Client\Http
+ * @package DogeDev\AllSecure\Http
  */
 class Response implements ResponseInterface {
 

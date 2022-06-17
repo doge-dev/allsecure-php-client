@@ -1,14 +1,14 @@
 <?php
 
-namespace Exchange\Client\Http;
+namespace DogeDev\AllSecure\Http;
 
-use Exchange\Client\Client;
-use Exchange\Client\Http\Exception\ClientException;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\Http\Exception\ClientException;
 
 /**
  * Class CurlClient
  *
- * @package Exchange\Client\Http
+ * @package DogeDev\AllSecure\Http
  */
 class CurlClient implements ClientInterface {
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
-use Exchange\Client\Data\Item;
+namespace DogeDev\AllSecure\Transaction\Base;
+use DogeDev\AllSecure\Data\Item;
 
 /**
  * Interface ItemsInterface
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 interface ItemsInterface {
 

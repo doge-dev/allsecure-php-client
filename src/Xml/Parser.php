@@ -1,28 +1,28 @@
 <?php
 
-namespace Exchange\Client\Xml;
+namespace DogeDev\AllSecure\Xml;
 
-use Exchange\Client\Callback\ChargebackData;
-use Exchange\Client\Callback\ChargebackReversalData;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\Result\CreditcardData;
-use Exchange\Client\Data\Result\IbanData;
-use Exchange\Client\Data\Result\PhoneData;
-use Exchange\Client\Data\Result\ResultData;
-use Exchange\Client\Data\Result\WalletData;
-use Exchange\Client\Exception\ClientException;
-use Exchange\Client\Schedule\ScheduleResult;
-use Exchange\Client\Exception\InvalidValueException;
-use Exchange\Client\Schedule\ScheduleError;
-use Exchange\Client\StatusApi\StatusResult;
-use Exchange\Client\Transaction\Error;
-use Exchange\Client\Transaction\Result;
-use Exchange\Client\Callback\Result as CallbackResult;
+use DogeDev\AllSecure\Callback\ChargebackData;
+use DogeDev\AllSecure\Callback\ChargebackReversalData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\Result\CreditcardData;
+use DogeDev\AllSecure\Data\Result\IbanData;
+use DogeDev\AllSecure\Data\Result\PhoneData;
+use DogeDev\AllSecure\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Result\WalletData;
+use DogeDev\AllSecure\Exception\ClientException;
+use DogeDev\AllSecure\Schedule\ScheduleResult;
+use DogeDev\AllSecure\Exception\InvalidValueException;
+use DogeDev\AllSecure\Schedule\ScheduleError;
+use DogeDev\AllSecure\StatusApi\StatusResult;
+use DogeDev\AllSecure\Transaction\Error;
+use DogeDev\AllSecure\Transaction\Result;
+use DogeDev\AllSecure\Callback\Result as CallbackResult;
 
 /**
  * Class Parser
  *
- * @package Exchange\Client\Xml
+ * @package DogeDev\AllSecure\Xml
  */
 class Parser {
 

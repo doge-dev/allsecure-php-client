@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 /**
  * Class Data
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 abstract class Data {
 

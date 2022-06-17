@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Json;
+namespace DogeDev\AllSecure\Json;
 
 /**
  * Class DataObject
  *
- * @package Exchange\Client\Json
+ * @package DogeDev\AllSecure\Json
  */
 class DataObject implements \ArrayAccess, \JsonSerializable {
 

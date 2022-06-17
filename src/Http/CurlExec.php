@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Exchange\Client\Http;
+namespace DogeDev\AllSecure\Http;
 
 /**
  * Class CurlExec
  *
- * @package Exchange\Client\Http
+ * @package DogeDev\AllSecure\Http
  */
 class CurlExec {
 

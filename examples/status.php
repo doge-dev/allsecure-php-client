@@ -1,7 +1,7 @@
 <?php
 
-use Exchange\Client\Client;
-use Exchange\Client\StatusApi\StatusRequestData;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\StatusApi\StatusRequestData;
 
 require_once('../initClientAutoload.php');
 

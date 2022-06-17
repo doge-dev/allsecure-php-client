@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile\PaymentData;
+namespace DogeDev\AllSecure\CustomerProfile\PaymentData;
 
-use Exchange\Client\Json\DataObject;
+use DogeDev\AllSecure\Json\DataObject;
 
 /**
  * Class PaymentData
  *
- * @package Exchange\Client\CustomerProfile\PaymentData
+ * @package DogeDev\AllSecure\CustomerProfile\PaymentData
  */
 abstract class PaymentData extends DataObject {
 

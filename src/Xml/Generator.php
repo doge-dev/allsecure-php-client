@@ -1,34 +1,34 @@
 <?php
 
-namespace Exchange\Client\Xml;
+namespace DogeDev\AllSecure\Xml;
 
-use Exchange\Client\Data\CreditCardCustomer;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\IbanCustomer;
-use Exchange\Client\Data\Request;
-use Exchange\Client\Exception\InvalidValueException;
-use Exchange\Client\Schedule\ScheduleData;
-use Exchange\Client\Exception\TypeException;
-use Exchange\Client\StatusApi\StatusRequestData;
-use Exchange\Client\Transaction\Base\AbstractTransaction;
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\OffsiteInterface;
-use Exchange\Client\Transaction\Capture;
-use Exchange\Client\Transaction\Debit;
-use Exchange\Client\Transaction\Deregister;
-use Exchange\Client\Transaction\Payout;
-use Exchange\Client\Transaction\Preauthorize;
-use Exchange\Client\Transaction\Refund;
-use Exchange\Client\Transaction\Register;
-use Exchange\Client\Transaction\VoidTransaction;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileInterface;
+use DogeDev\AllSecure\Data\CreditCardCustomer;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\IbanCustomer;
+use DogeDev\AllSecure\Data\Request;
+use DogeDev\AllSecure\Exception\InvalidValueException;
+use DogeDev\AllSecure\Schedule\ScheduleData;
+use DogeDev\AllSecure\Exception\TypeException;
+use DogeDev\AllSecure\StatusApi\StatusRequestData;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransaction;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\OffsiteInterface;
+use DogeDev\AllSecure\Transaction\Capture;
+use DogeDev\AllSecure\Transaction\Debit;
+use DogeDev\AllSecure\Transaction\Deregister;
+use DogeDev\AllSecure\Transaction\Payout;
+use DogeDev\AllSecure\Transaction\Preauthorize;
+use DogeDev\AllSecure\Transaction\Refund;
+use DogeDev\AllSecure\Transaction\Register;
+use DogeDev\AllSecure\Transaction\VoidTransaction;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileInterface;
 
 /**
  * Class Generator
  *
- * @package Exchange\Client\Xml
+ * @package DogeDev\AllSecure\Xml
  */
 class Generator {
 

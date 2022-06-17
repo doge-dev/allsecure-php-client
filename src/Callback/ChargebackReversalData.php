@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Callback;
+namespace DogeDev\AllSecure\Callback;
 
 /**
  * Class ChargebackReversalData
  *
- * @package Exchange\Client\Callback
+ * @package DogeDev\AllSecure\Callback
  */
 class ChargebackReversalData {
 

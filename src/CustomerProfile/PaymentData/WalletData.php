@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile\PaymentData;
+namespace DogeDev\AllSecure\CustomerProfile\PaymentData;
 
 /**
  * Class WalletData
  *
- * @package Exchange\Client\CustomerProfile\PaymentData
+ * @package DogeDev\AllSecure\CustomerProfile\PaymentData
  *
  * @property string $walletReferenceId
  * @property string $walletOwner

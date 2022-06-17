@@ -1,14 +1,14 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\Result\ResultData;
 
 /**
  * Class Result
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Result {
 

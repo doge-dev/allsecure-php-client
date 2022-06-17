@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 /**
  * Represents a generic customer without any specific data.
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class Customer extends Data {
 
