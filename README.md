@@ -12,7 +12,7 @@ Learn more about AllSecure Exchange platform by reading our <a href="https://asx
 ## Installation via composer:
 
 ```sh
-composer require allsecure-pay/php-exchange
+composer require doge-dev/all-secure-php-client
 ```
 Refer to <a href="https://github.com/composer/composer/blob/master/doc/00-intro.md#introduction" alt="_new">Composer Documentation</a> if you are not familiar with composer).
 
