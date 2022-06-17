@@ -1,14 +1,14 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile;
+namespace DogeDev\AllSecure\CustomerProfile;
 
-use Exchange\Client\Data\PaymentData\PaymentData;
-use Exchange\Client\Json\DataObject;
+use DogeDev\AllSecure\Data\PaymentData\PaymentData;
+use DogeDev\AllSecure\Json\DataObject;
 
 /**
  * Class PaymentInstrument
  *
- * @package Exchange\Client\CustomerProfile
+ * @package DogeDev\AllSecure\CustomerProfile
  *
  * @property string $method
  * @property string $paymentToken

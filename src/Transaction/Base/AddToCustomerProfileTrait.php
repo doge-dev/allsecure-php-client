@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\CustomerProfileData;
 
 /**
  * Trait AddToCustomerProfileTrait
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 trait AddToCustomerProfileTrait {
 

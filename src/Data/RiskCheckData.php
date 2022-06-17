@@ -1,8 +1,8 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
-use Exchange\Client\Json\DataObject;
+use DogeDev\AllSecure\Json\DataObject;
 
 /**
  * Class RiskCheckData
@@ -13,7 +13,7 @@ use Exchange\Client\Json\DataObject;
  * @property boolean threeDSecureRequired
  *
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class RiskCheckData extends DataObject {
 

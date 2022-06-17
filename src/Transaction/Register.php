@@ -1,28 +1,28 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransaction;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileInterface;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileTrait;
-use Exchange\Client\Transaction\Base\CustomerInterface;
-use Exchange\Client\Transaction\Base\CustomerTrait;
-use Exchange\Client\Transaction\Base\IndicatorInterface;
-use Exchange\Client\Transaction\Base\IndicatorTrait;
-use Exchange\Client\Transaction\Base\OffsiteInterface;
-use Exchange\Client\Transaction\Base\OffsiteTrait;
-use Exchange\Client\Transaction\Base\PayByLinkTrait;
-use Exchange\Client\Transaction\Base\ScheduleInterface;
-use Exchange\Client\Transaction\Base\ScheduleTrait;
-use Exchange\Client\Transaction\Base\ThreeDSecureInterface;
-use Exchange\Client\Transaction\Base\ThreeDSecureTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransaction;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileInterface;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileTrait;
+use DogeDev\AllSecure\Transaction\Base\CustomerInterface;
+use DogeDev\AllSecure\Transaction\Base\CustomerTrait;
+use DogeDev\AllSecure\Transaction\Base\IndicatorInterface;
+use DogeDev\AllSecure\Transaction\Base\IndicatorTrait;
+use DogeDev\AllSecure\Transaction\Base\OffsiteInterface;
+use DogeDev\AllSecure\Transaction\Base\OffsiteTrait;
+use DogeDev\AllSecure\Transaction\Base\PayByLinkTrait;
+use DogeDev\AllSecure\Transaction\Base\ScheduleInterface;
+use DogeDev\AllSecure\Transaction\Base\ScheduleTrait;
+use DogeDev\AllSecure\Transaction\Base\ThreeDSecureInterface;
+use DogeDev\AllSecure\Transaction\Base\ThreeDSecureTrait;
 
 /**
  * Register: Register the customer's payment data for recurring charges.
  *
  * The registered customer payment data will be available for recurring transaction without user interaction.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Register extends AbstractTransaction
                implements AddToCustomerProfileInterface,

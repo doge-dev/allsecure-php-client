@@ -1,38 +1,38 @@
 <?php
 
-namespace Exchange\Client\Json;
+namespace DogeDev\AllSecure\Json;
 
-use Exchange\Client\Client;
-use Exchange\Client\Data\CreditCardCustomer;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\CustomerProfileData;
-use Exchange\Client\Data\IbanCustomer;
-use Exchange\Client\Data\Item;
-use Exchange\Client\Data\PayByLinkData;
-use Exchange\Client\Data\PaymentData\IbanData;
-use Exchange\Client\Data\PaymentData\PaymentData;
-use Exchange\Client\Data\PaymentData\WalletData;
-use Exchange\Client\Data\TransactionSplit;
-use Exchange\Client\Data\ThreeDSecureData;
-use Exchange\Client\Schedule\ContinueSchedule;
-use Exchange\Client\Schedule\ScheduleData;
-use Exchange\Client\Schedule\ScheduleWithTransaction;
-use Exchange\Client\Schedule\StartSchedule;
-use Exchange\Client\Transaction\Base\AbstractTransaction;
-use Exchange\Client\Transaction\Capture;
-use Exchange\Client\Transaction\Debit;
-use Exchange\Client\Transaction\Deregister;
-use Exchange\Client\Transaction\IncrementalAuthorization;
-use Exchange\Client\Transaction\Payout;
-use Exchange\Client\Transaction\Preauthorize;
-use Exchange\Client\Transaction\Refund;
-use Exchange\Client\Transaction\Register;
-use Exchange\Client\Transaction\VoidTransaction;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\Data\CreditCardCustomer;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\IbanCustomer;
+use DogeDev\AllSecure\Data\Item;
+use DogeDev\AllSecure\Data\PayByLinkData;
+use DogeDev\AllSecure\Data\PaymentData\IbanData;
+use DogeDev\AllSecure\Data\PaymentData\PaymentData;
+use DogeDev\AllSecure\Data\PaymentData\WalletData;
+use DogeDev\AllSecure\Data\TransactionSplit;
+use DogeDev\AllSecure\Data\ThreeDSecureData;
+use DogeDev\AllSecure\Schedule\ContinueSchedule;
+use DogeDev\AllSecure\Schedule\ScheduleData;
+use DogeDev\AllSecure\Schedule\ScheduleWithTransaction;
+use DogeDev\AllSecure\Schedule\StartSchedule;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransaction;
+use DogeDev\AllSecure\Transaction\Capture;
+use DogeDev\AllSecure\Transaction\Debit;
+use DogeDev\AllSecure\Transaction\Deregister;
+use DogeDev\AllSecure\Transaction\IncrementalAuthorization;
+use DogeDev\AllSecure\Transaction\Payout;
+use DogeDev\AllSecure\Transaction\Preauthorize;
+use DogeDev\AllSecure\Transaction\Refund;
+use DogeDev\AllSecure\Transaction\Register;
+use DogeDev\AllSecure\Transaction\VoidTransaction;
 
 /**
  * Class Generator
  *
- * @package Exchange\Client\Json
+ * @package DogeDev\AllSecure\Json
  */
 class JsonGenerator {
 

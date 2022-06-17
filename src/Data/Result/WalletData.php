@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data\Result;
+namespace DogeDev\AllSecure\Data\Result;
 
 /**
  * Class WalletData
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  *
  */
 class WalletData extends ResultData {

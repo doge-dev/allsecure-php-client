@@ -1,30 +1,30 @@
 <?php
 
-namespace Exchange\Client\Json;
+namespace DogeDev\AllSecure\Json;
 
-use Exchange\Client\Callback\Result as CallbackResult;
-use Exchange\Client\Data\ChargebackData;
-use Exchange\Client\Data\ChargebackReversalData;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\CustomerProfileData;
-use Exchange\Client\Data\Result\CreditcardData as ReturnCardData;
-use Exchange\Client\Data\Result\IbanData as ReturnIbanData;
-use Exchange\Client\Data\Result\PhoneData as ReturnPhoneData;
-use Exchange\Client\Data\Result\ResultData;
-use Exchange\Client\Data\Result\ScheduleResultData;
-use Exchange\Client\Data\Result\WalletData as ReturnWalletData;
-use Exchange\Client\Data\RiskCheckData;
-use Exchange\Client\Data\TransactionSplit;
-use Exchange\Client\Options\OptionsResult;
-use Exchange\Client\Schedule\ScheduleResult;
-use Exchange\Client\StatusApi\StatusResult;
-use Exchange\Client\Transaction\Error;
-use Exchange\Client\Transaction\Result;
+use DogeDev\AllSecure\Callback\Result as CallbackResult;
+use DogeDev\AllSecure\Data\ChargebackData;
+use DogeDev\AllSecure\Data\ChargebackReversalData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\Result\CreditcardData as ReturnCardData;
+use DogeDev\AllSecure\Data\Result\IbanData as ReturnIbanData;
+use DogeDev\AllSecure\Data\Result\PhoneData as ReturnPhoneData;
+use DogeDev\AllSecure\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Result\ScheduleResultData;
+use DogeDev\AllSecure\Data\Result\WalletData as ReturnWalletData;
+use DogeDev\AllSecure\Data\RiskCheckData;
+use DogeDev\AllSecure\Data\TransactionSplit;
+use DogeDev\AllSecure\Options\OptionsResult;
+use DogeDev\AllSecure\Schedule\ScheduleResult;
+use DogeDev\AllSecure\StatusApi\StatusResult;
+use DogeDev\AllSecure\Transaction\Error;
+use DogeDev\AllSecure\Transaction\Result;
 
 /**
  * Class JsonParser
  *
- * @package Exchange\Client\Json
+ * @package DogeDev\AllSecure\Json
  */
 class JsonParser {
 

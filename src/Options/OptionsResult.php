@@ -1,10 +1,10 @@
 <?php
 
-namespace Exchange\Client\Options;
+namespace DogeDev\AllSecure\Options;
 
 /**
  *
- * @package Exchange\Client\Options
+ * @package DogeDev\AllSecure\Options
  */
 class OptionsResult {
 

@@ -1,19 +1,19 @@
 <?php
 
-namespace Exchange\Client\StatusApi;
+namespace DogeDev\AllSecure\StatusApi;
 
-use Exchange\Client\Data\ChargebackData;
-use Exchange\Client\Data\ChargebackReversalData;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\CustomerProfileData;
-use Exchange\Client\Data\Result\ResultData;
-use Exchange\Client\Data\Result\ScheduleResultData;
-use Exchange\Client\Data\TransactionSplit;
-use Exchange\Client\Transaction\Error;
+use DogeDev\AllSecure\Data\ChargebackData;
+use DogeDev\AllSecure\Data\ChargebackReversalData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Result\ScheduleResultData;
+use DogeDev\AllSecure\Data\TransactionSplit;
+use DogeDev\AllSecure\Transaction\Error;
 
 /**
  *
- * @package Exchange\Client\StatusApi
+ * @package DogeDev\AllSecure\StatusApi
  */
 class StatusResult {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile;
+namespace DogeDev\AllSecure\CustomerProfile;
 
-use Exchange\Client\Json\ResponseObject;
+use DogeDev\AllSecure\Json\ResponseObject;
 
 /**
  * Class GetProfileResponse
  *
- * @package Exchange\Client\CustomerProfile
+ * @package DogeDev\AllSecure\CustomerProfile
  *
  * @property bool                $profileExists
  * @property string              $profileGuid

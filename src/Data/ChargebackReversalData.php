@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 /**
  * Class ChargebackReversalData
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class ChargebackReversalData {
 

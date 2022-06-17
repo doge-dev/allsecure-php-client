@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Exception;
+namespace DogeDev\AllSecure\Exception;
 
 /**
  * Class GeneralErrorException
  *
- * @package Exchange\Client\Exception
+ * @package DogeDev\AllSecure\Exception
  */
 class GeneralErrorException extends \Exception {
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Exchange\Client\Schedule;
+namespace DogeDev\AllSecure\Schedule;
 
-use Exchange\Client\Exception\TypeException;
-use Exchange\Client\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Exception\TypeException;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
 
 /**
  * Class ScheduleWithTransaction
  * use to start a schedule with a transaction
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class ScheduleWithTransaction implements AmountableInterface {
 

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Exchange\Client\Data\Result;
+namespace DogeDev\AllSecure\Data\Result;
 
 /**
  * Class ResultData
  *
- * @package Exchange\Client\Data\Result
+ * @package DogeDev\AllSecure\Data\Result
  */
 abstract class ResultData {
 

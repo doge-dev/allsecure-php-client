@@ -1,19 +1,19 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\AmountableTrait;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\ItemsTrait;
-use Exchange\Client\Transaction\Base\TransactionSplitsInterface;
-use Exchange\Client\Transaction\Base\TransactionSplitsTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableTrait;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsTrait;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsInterface;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsTrait;
 
 /**
  * Capture: Charge a previously preauthorized transaction.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Capture extends AbstractTransactionWithReference implements AmountableInterface, ItemsInterface, TransactionSplitsInterface {
     use AmountableTrait;

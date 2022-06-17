@@ -1,15 +1,15 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Data\CreditCardCustomer;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\IbanCustomer;
+use DogeDev\AllSecure\Data\CreditCardCustomer;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\IbanCustomer;
 
 /**
  * Class ThreeDSecureTrait
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 trait CustomerTrait {
 

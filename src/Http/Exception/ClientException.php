@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Exchange\Client\Http\Exception;
+namespace DogeDev\AllSecure\Http\Exception;
 
 /**
  * Class ClientException
  *
- * @package Exchange\Client\Http\Exception
+ * @package DogeDev\AllSecure\Http\Exception
  */
 class ClientException extends \Exception {
 

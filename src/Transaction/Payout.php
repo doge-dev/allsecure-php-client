@@ -1,26 +1,26 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\AmountableTrait;
-use Exchange\Client\Transaction\Base\CustomerInterface;
-use Exchange\Client\Transaction\Base\CustomerTrait;
-use Exchange\Client\Transaction\Base\IndicatorInterface;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\ItemsTrait;
-use Exchange\Client\Transaction\Base\TransactionSplitsInterface;
-use Exchange\Client\Transaction\Base\TransactionSplitsTrait;
-use Exchange\Client\Transaction\Base\OffsiteInterface;
-use Exchange\Client\Transaction\Base\OffsiteTrait;
-use Exchange\Client\Transaction\Base\PayByLinkTrait;
-use Exchange\Client\Transaction\Base\IndicatorTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableTrait;
+use DogeDev\AllSecure\Transaction\Base\CustomerInterface;
+use DogeDev\AllSecure\Transaction\Base\CustomerTrait;
+use DogeDev\AllSecure\Transaction\Base\IndicatorInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsTrait;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsInterface;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsTrait;
+use DogeDev\AllSecure\Transaction\Base\OffsiteInterface;
+use DogeDev\AllSecure\Transaction\Base\OffsiteTrait;
+use DogeDev\AllSecure\Transaction\Base\PayByLinkTrait;
+use DogeDev\AllSecure\Transaction\Base\IndicatorTrait;
 
 /**
  * Payout: Payout a certain amount of money to the customer. (Debits the merchant's account, Credits the customer's account)
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Payout extends AbstractTransactionWithReference
              implements AmountableInterface,

@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Data\PaymentData;
+namespace DogeDev\AllSecure\Data\PaymentData;
 
 /**
  * Class IbanData
  *
- * @package Exchange\Client\CustomerProfile\PaymentData
+ * @package DogeDev\AllSecure\CustomerProfile\PaymentData
  */
 class IbanData extends PaymentData {
 

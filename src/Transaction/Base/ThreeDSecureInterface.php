@@ -1,12 +1,12 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
-use Exchange\Client\Data\ThreeDSecureData;
+namespace DogeDev\AllSecure\Transaction\Base;
+use DogeDev\AllSecure\Data\ThreeDSecureData;
 
 /**
  * Interface ThreeDSecureInterface
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 interface ThreeDSecureInterface {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Exchange\Client\Schedule;
+namespace DogeDev\AllSecure\Schedule;
 
-use Exchange\Client\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
 
 /**
  * Class ScheduleResultData
@@ -14,7 +14,7 @@ use Exchange\Client\Transaction\Base\AmountableInterface;
  *  - ContinueSchedule (obj): used to continue schedule
  *  - string [scheduleId]: used to show, pause or cancel a schedule
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class ScheduleData implements AmountableInterface {
 

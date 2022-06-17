@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Data\Item;
+use DogeDev\AllSecure\Data\Item;
 
 /**
  * Class ItemsTrait
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 trait ItemsTrait {
 

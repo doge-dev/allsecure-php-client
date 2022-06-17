@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Exception;
+namespace DogeDev\AllSecure\Exception;
 
 /**
  * Class InvalidValueException
  *
- * @package Exchange\Client\Exception
+ * @package DogeDev\AllSecure\Exception
  */
 class InvalidValueException extends ClientException {
 

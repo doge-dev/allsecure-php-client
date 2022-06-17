@@ -1,17 +1,17 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\CustomerProfileData;
-use Exchange\Client\Data\Result\ResultData;
-use Exchange\Client\Data\Result\ScheduleResultData;
-use Exchange\Client\Data\RiskCheckData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Result\ScheduleResultData;
+use DogeDev\AllSecure\Data\RiskCheckData;
 
 /**
  * Class Result
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Result {
 

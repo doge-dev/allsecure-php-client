@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
 /**
  * Interface OffsiteInterface
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 interface OffsiteInterface {
 

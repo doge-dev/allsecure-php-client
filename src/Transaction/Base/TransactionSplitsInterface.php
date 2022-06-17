@@ -1,12 +1,12 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
-use Exchange\Client\Data\TransactionSplit;
+namespace DogeDev\AllSecure\Transaction\Base;
+use DogeDev\AllSecure\Data\TransactionSplit;
 
 /**
  * Interface SplitsInterface
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 interface TransactionSplitsInterface {
 

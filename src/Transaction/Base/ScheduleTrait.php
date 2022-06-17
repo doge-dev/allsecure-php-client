@@ -1,14 +1,14 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
-use Exchange\Client\Schedule\ScheduleData;
-use Exchange\Client\Schedule\ScheduleWithTransaction;
+use DogeDev\AllSecure\Schedule\ScheduleData;
+use DogeDev\AllSecure\Schedule\ScheduleWithTransaction;
 
 /**
  * Trait ScheduleTrait
  *
- * @package Exchange\Client\Transaction\Base
+ * @package DogeDev\AllSecure\Transaction\Base
  */
 trait ScheduleTrait {
 

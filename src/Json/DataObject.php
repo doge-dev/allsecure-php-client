@@ -1,17 +1,17 @@
 <?php
 
-namespace Exchange\Client\Json;
+namespace DogeDev\AllSecure\Json;
 
-use Exchange\Client\CustomerProfile\CustomerData;
-use Exchange\Client\CustomerProfile\PaymentInstrument;
-use Exchange\Client\Data\PaymentData\IbanData;
-use Exchange\Client\Data\PaymentData\WalletData;
-use Exchange\Client\Data\ThreeDSecureData;
+use DogeDev\AllSecure\CustomerProfile\CustomerData;
+use DogeDev\AllSecure\CustomerProfile\PaymentInstrument;
+use DogeDev\AllSecure\Data\PaymentData\IbanData;
+use DogeDev\AllSecure\Data\PaymentData\WalletData;
+use DogeDev\AllSecure\Data\ThreeDSecureData;
 
 /**
  * Class DataObject
  *
- * @package Exchange\Client\Json
+ * @package DogeDev\AllSecure\Json
  */
 class DataObject implements \ArrayAccess, \JsonSerializable {
 

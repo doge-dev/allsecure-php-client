@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Schedule;
+namespace DogeDev\AllSecure\Schedule;
 
 /**
  * Class StartSchedule
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  *
  */
 class ContinueSchedule {

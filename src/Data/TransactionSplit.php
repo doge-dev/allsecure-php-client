@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 
 class TransactionSplit

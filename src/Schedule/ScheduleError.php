@@ -1,11 +1,11 @@
 <?php
 
-namespace Exchange\Client\Schedule;
+namespace DogeDev\AllSecure\Schedule;
 
 /**
  * Class ScheduleError
  * @deprecated not used anymore
- * @package Exchange\Client\ScheduleResultData
+ * @package DogeDev\AllSecure\ScheduleResultData
  */
 class ScheduleError {
 

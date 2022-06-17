@@ -1,48 +1,48 @@
 <?php
 
-namespace Exchange\Client;
+namespace DogeDev\AllSecure;
 
-use Exchange\Client\CustomerProfile\CustomerData;
-use Exchange\Client\CustomerProfile\DeleteProfileResponse;
-use Exchange\Client\CustomerProfile\GetProfileResponse;
-use Exchange\Client\CustomerProfile\PaymentInstrument;
-use Exchange\Client\CustomerProfile\UpdateProfileResponse;
-use Exchange\Client\Exception\GeneralErrorException;
-use Exchange\Client\Exception\TypeException;
-use Exchange\Client\Json\ErrorResponse;
-use Exchange\Client\Exception\RateLimitException;
-use Exchange\Client\Json\JsonParser;
-use Exchange\Client\Options\OptionsResult;
-use Exchange\Client\Schedule\ContinueSchedule;
-use Exchange\Client\Schedule\ScheduleData;
-use Exchange\Client\Exception\ClientException;
-use Exchange\Client\Exception\InvalidValueException;
-use Exchange\Client\Exception\TimeoutException;
-use Exchange\Client\Http\CurlClient;
-use Exchange\Client\Http\Response;
-use Exchange\Client\Schedule\StartSchedule;
-use Exchange\Client\StatusApi\StatusRequestData;
-use Exchange\Client\Transaction\Base\AbstractTransaction;
-use Exchange\Client\Transaction\Capture;
-use Exchange\Client\Transaction\Debit;
-use Exchange\Client\Transaction\Deregister;
-use Exchange\Client\Transaction\IncrementalAuthorization;
-use Exchange\Client\Transaction\Payout;
-use Exchange\Client\Transaction\Preauthorize;
-use Exchange\Client\Transaction\Refund;
-use Exchange\Client\Transaction\Register;
-use Exchange\Client\Transaction\Result;
-use Exchange\Client\Transaction\VoidTransaction;
-use Exchange\Client\Json\JsonGenerator;
-use Exchange\Client\Xml\Parser;
-use Exchange\Client\Xml\XmlGenerator;
+use DogeDev\AllSecure\CustomerProfile\CustomerData;
+use DogeDev\AllSecure\CustomerProfile\DeleteProfileResponse;
+use DogeDev\AllSecure\CustomerProfile\GetProfileResponse;
+use DogeDev\AllSecure\CustomerProfile\PaymentInstrument;
+use DogeDev\AllSecure\CustomerProfile\UpdateProfileResponse;
+use DogeDev\AllSecure\Exception\GeneralErrorException;
+use DogeDev\AllSecure\Exception\TypeException;
+use DogeDev\AllSecure\Json\ErrorResponse;
+use DogeDev\AllSecure\Exception\RateLimitException;
+use DogeDev\AllSecure\Json\JsonParser;
+use DogeDev\AllSecure\Options\OptionsResult;
+use DogeDev\AllSecure\Schedule\ContinueSchedule;
+use DogeDev\AllSecure\Schedule\ScheduleData;
+use DogeDev\AllSecure\Exception\ClientException;
+use DogeDev\AllSecure\Exception\InvalidValueException;
+use DogeDev\AllSecure\Exception\TimeoutException;
+use DogeDev\AllSecure\Http\CurlClient;
+use DogeDev\AllSecure\Http\Response;
+use DogeDev\AllSecure\Schedule\StartSchedule;
+use DogeDev\AllSecure\StatusApi\StatusRequestData;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransaction;
+use DogeDev\AllSecure\Transaction\Capture;
+use DogeDev\AllSecure\Transaction\Debit;
+use DogeDev\AllSecure\Transaction\Deregister;
+use DogeDev\AllSecure\Transaction\IncrementalAuthorization;
+use DogeDev\AllSecure\Transaction\Payout;
+use DogeDev\AllSecure\Transaction\Preauthorize;
+use DogeDev\AllSecure\Transaction\Refund;
+use DogeDev\AllSecure\Transaction\Register;
+use DogeDev\AllSecure\Transaction\Result;
+use DogeDev\AllSecure\Transaction\VoidTransaction;
+use DogeDev\AllSecure\Json\JsonGenerator;
+use DogeDev\AllSecure\Xml\Parser;
+use DogeDev\AllSecure\Xml\XmlGenerator;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 
 /**
  * Class Client
  *
- * @package Exchange\Client
+ * @package DogeDev\AllSecure
  */
 class Client {
 

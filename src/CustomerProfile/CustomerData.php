@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\CustomerProfile;
+namespace DogeDev\AllSecure\CustomerProfile;
 
-use Exchange\Client\Json\DataObject;
+use DogeDev\AllSecure\Json\DataObject;
 
 /**
  * Class CustomerData
  *
- * @package Exchange\Client\CustomerProfile
+ * @package DogeDev\AllSecure\CustomerProfile
  *
  * @property string firstName
  * @property string $lastName

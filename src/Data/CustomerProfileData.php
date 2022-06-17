@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
-use Exchange\Client\Json\DataObject;
+use DogeDev\AllSecure\Json\DataObject;
 
 /**
  * Class CustomerProfileData
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class CustomerProfileData extends DataObject {
 

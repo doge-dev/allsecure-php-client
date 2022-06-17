@@ -8,7 +8,7 @@ Exchange Client
 ## Installation via composer:
 
 ```sh
-composer require allsecure-pay/php-exchange
+composer require doge-dev/php-exchange
 ```
 
 ## Documentation
@@ -23,10 +23,10 @@ Learn more about AllSecure Exchange platform by reading our <a href="https://asx
 // include the autoloader
 require_once('path/to/vendor/autoload.php');
 
-use Exchange\Client\Client;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Transaction\Debit;
-use Exchange\Client\Transaction\Result;
+use DogeDev\AllSecure\Client;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Transaction\Debit;
+use DogeDev\AllSecure\Transaction\Result;
 
 // instantiate the "Exchange\Client\Client" with your credentials
 $client = new Client("username", "password", "apiKey", "sharedSecret");

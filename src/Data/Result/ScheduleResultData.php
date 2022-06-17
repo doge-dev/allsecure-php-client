@@ -1,13 +1,13 @@
 <?php
 
-namespace Exchange\Client\Data\Result;
+namespace DogeDev\AllSecure\Data\Result;
 
 
 /**
  * Class ScheduleResultData
  * schedule data received from the gateway
  *
- * @package Exchange\Client\Data
+ * @package DogeDev\AllSecure\Data
  */
 class ScheduleResultData extends ResultData {
 

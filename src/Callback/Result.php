@@ -1,20 +1,20 @@
 <?php
 
-namespace Exchange\Client\Callback;
+namespace DogeDev\AllSecure\Callback;
 
-use Exchange\Client\Data\ChargebackData;
-use Exchange\Client\Data\ChargebackReversalData;
-use Exchange\Client\Data\Customer;
-use Exchange\Client\Data\CustomerProfileData;
-use Exchange\Client\Data\Result\ResultData;
-use Exchange\Client\Data\Result\ScheduleResultData;
-use Exchange\Client\Transaction\Error;
+use DogeDev\AllSecure\Data\ChargebackData;
+use DogeDev\AllSecure\Data\ChargebackReversalData;
+use DogeDev\AllSecure\Data\Customer;
+use DogeDev\AllSecure\Data\CustomerProfileData;
+use DogeDev\AllSecure\Data\Result\ResultData;
+use DogeDev\AllSecure\Data\Result\ScheduleResultData;
+use DogeDev\AllSecure\Transaction\Error;
 
 /**
  * Callback result, which is produced by processing a callback request's body.
  * Reports the status of an asynchronous transaction.
  *
- * @package Exchange\Client\Callback
+ * @package DogeDev\AllSecure\Callback
  */
 class Result {
     /** The callback reports, that the transaction finished successfully. */

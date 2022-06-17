@@ -1,32 +1,32 @@
 <?php
 
-namespace Exchange\Client\Transaction;
+namespace DogeDev\AllSecure\Transaction;
 
-use Exchange\Client\Transaction\Base\AbstractTransactionWithReference;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileInterface;
-use Exchange\Client\Transaction\Base\AddToCustomerProfileTrait;
-use Exchange\Client\Transaction\Base\AmountableInterface;
-use Exchange\Client\Transaction\Base\AmountableTrait;
-use Exchange\Client\Transaction\Base\CustomerInterface;
-use Exchange\Client\Transaction\Base\CustomerTrait;
-use Exchange\Client\Transaction\Base\IndicatorInterface;
-use Exchange\Client\Transaction\Base\IndicatorTrait;
-use Exchange\Client\Transaction\Base\ItemsInterface;
-use Exchange\Client\Transaction\Base\ItemsTrait;
-use Exchange\Client\Transaction\Base\OffsiteInterface;
-use Exchange\Client\Transaction\Base\OffsiteTrait;
-use Exchange\Client\Transaction\Base\PayByLinkTrait;
-use Exchange\Client\Transaction\Base\ScheduleInterface;
-use Exchange\Client\Transaction\Base\ScheduleTrait;
-use Exchange\Client\Transaction\Base\TransactionSplitsInterface;
-use Exchange\Client\Transaction\Base\TransactionSplitsTrait;
-use Exchange\Client\Transaction\Base\ThreeDSecureInterface;
-use Exchange\Client\Transaction\Base\ThreeDSecureTrait;
+use DogeDev\AllSecure\Transaction\Base\AbstractTransactionWithReference;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileInterface;
+use DogeDev\AllSecure\Transaction\Base\AddToCustomerProfileTrait;
+use DogeDev\AllSecure\Transaction\Base\AmountableInterface;
+use DogeDev\AllSecure\Transaction\Base\AmountableTrait;
+use DogeDev\AllSecure\Transaction\Base\CustomerInterface;
+use DogeDev\AllSecure\Transaction\Base\CustomerTrait;
+use DogeDev\AllSecure\Transaction\Base\IndicatorInterface;
+use DogeDev\AllSecure\Transaction\Base\IndicatorTrait;
+use DogeDev\AllSecure\Transaction\Base\ItemsInterface;
+use DogeDev\AllSecure\Transaction\Base\ItemsTrait;
+use DogeDev\AllSecure\Transaction\Base\OffsiteInterface;
+use DogeDev\AllSecure\Transaction\Base\OffsiteTrait;
+use DogeDev\AllSecure\Transaction\Base\PayByLinkTrait;
+use DogeDev\AllSecure\Transaction\Base\ScheduleInterface;
+use DogeDev\AllSecure\Transaction\Base\ScheduleTrait;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsInterface;
+use DogeDev\AllSecure\Transaction\Base\TransactionSplitsTrait;
+use DogeDev\AllSecure\Transaction\Base\ThreeDSecureInterface;
+use DogeDev\AllSecure\Transaction\Base\ThreeDSecureTrait;
 
 /**
  * Debit: Charge the customer for a certain amount of money. This could be once, but also recurring.
  *
- * @package Exchange\Client\Transaction
+ * @package DogeDev\AllSecure\Transaction
  */
 class Debit extends AbstractTransactionWithReference
             implements AddToCustomerProfileInterface,

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
 
-use Exchange\Client\Data\PayByLinkData;
+use DogeDev\AllSecure\Data\PayByLinkData;
 
 trait PayByLinkTrait
 {

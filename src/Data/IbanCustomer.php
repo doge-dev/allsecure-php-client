@@ -1,15 +1,15 @@
 <?php
 
-namespace Exchange\Client\Data;
+namespace DogeDev\AllSecure\Data;
 
 
-use Exchange\Client\Exception\InvalidValueException;
+use DogeDev\AllSecure\Exception\InvalidValueException;
 
 /**
  * Class IbanCustomer
  *
- * @deprecated see Exchange\Client\Data\PaymentData\IbanData
- * @package Exchange\Client\Data
+ * @deprecated see DogeDev\AllSecure\Data\PaymentData\IbanData
+ * @package DogeDev\AllSecure\Data
  */
 class IbanCustomer extends Customer {
 

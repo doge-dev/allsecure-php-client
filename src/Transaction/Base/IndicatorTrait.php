@@ -1,6 +1,6 @@
 <?php
 
-namespace Exchange\Client\Transaction\Base;
+namespace DogeDev\AllSecure\Transaction\Base;
 
 trait IndicatorTrait
 {
