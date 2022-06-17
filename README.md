@@ -8,7 +8,7 @@ Exchange Client
 ## Installation via composer:
 
 ```sh
-composer require doge-dev/php-exchange
+composer require doge-dev/all-secure-php-client
 ```
 
 ## Documentation
